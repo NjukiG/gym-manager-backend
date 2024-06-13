@@ -11,6 +11,7 @@ import (
 func LoadEnvVariables() {
 
 	pwd, err1 := os.Getwd()
+	
 	if err1 != nil {
 		panic(err1)
 	}
