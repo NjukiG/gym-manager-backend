@@ -19,8 +19,8 @@ Make sure you have the following installed on your system:
 1. CLone the project
 
 ```sh
-  git clone https://github.com/your-username/your-repo.git
-  cd your-repo
+  git clone git@github.com:NjukiG/gym-manager-backend.git
+  cd gym-manager-backend
 ```
 
 2. Install dependencies.
@@ -67,7 +67,6 @@ GET /protected/memberships - Get all memberships
 GET /protected/memberships/:id - Get a membership by ID
 PUT /protected/memberships/:id - Edit a membership by ID
 DELETE /protected/memberships/:id - Delete a membership by ID
-
 
 THis project uses react.js for the frontend and a Golang API for backend.
 It uses tailwind for styling and components from HyperUI.
